@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root{
+    --green:#27ae60;
+    --black:#2c2c54;
+}
+
+*{
+    font-family: sans-serif,'poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*::selection{
+    background: var(--green);
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+
+.header-1{
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+
+.logo{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.logo i{
+    padding-right: 5rem;
+    color: var(--green);
+}
+
+.header-1 .search-box-container{
+    display: flex;
+}
