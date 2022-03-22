@@ -37,14 +37,16 @@
     color: black;
     text-decoration: none;
 }
-
-.fa-solid {
-    font-size: 100px;
-    color: black;
+li{
+    list-style: none;
 }
+/*.fa-solid {*/
+/*    font-size: 100px;*/
+/*    color: black;*/
+/*}*/
 
 
-/* <!-- carrousel -->
+         <!-- carrousel -->
 
         <!-- end of carrousel -->
 
@@ -62,4 +64,4 @@
 
         <!-- footer -->
 
-        <!-- end of footer --> */
+        <!-- end of footer -->
