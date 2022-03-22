@@ -10,10 +10,13 @@ h3{
 
 }
 
-.body {
+body {
     font-family: sans-serif, 'Segoe UI', "gabriella";
-}
 
+}
+h3{
+    background-color: transparent;
+}
 .navbar ul li {
     display: inline-block;
     list-style: none;
@@ -84,9 +87,9 @@ li{
 }
 
 .btn {
+    width: 100px;
     height: 60px;
-    width: 200px;
-    background: blue;
+    background-color: black;
     color: #fff;
     font-size: 32px;
     cursor: pointer;
@@ -118,3 +121,13 @@ img{
         /* <!-- footer -->
 
         <!-- end of footer --> */
+
+
+/* styles for our store */
+
+img {
+    margin-top: 10px;
+}
+
+
+/* end of styles for our store */
