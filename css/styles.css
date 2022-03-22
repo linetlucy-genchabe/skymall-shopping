@@ -75,6 +75,10 @@ li{
     width: 880px;
     text-transform: uppercase;
 }
+.carousel-caption {
+    background-color: transparent;
+}
+
 .btn {
     height: 60px;
     width: 200px;
