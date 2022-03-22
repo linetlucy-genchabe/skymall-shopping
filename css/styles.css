@@ -5,18 +5,19 @@
     font-family: "gabriela";
     background-color: #F3DCDC;
 }
-h3{
-    background-color: transparent;
 
+h3 {
+    background-color: transparent;
 }
 
 body {
     font-family: sans-serif, 'Segoe UI', "gabriella";
-
 }
-h3{
+
+h3 {
     background-color: transparent;
 }
+
 .navbar ul li {
     display: inline-block;
     list-style: none;
@@ -44,37 +45,50 @@ h3{
     color: black;
     text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
 }
+
+
 /*.fa-solid {*/
+
+
 /*    font-size: 100px;*/
+
+
 /*    color: black;*/
+
+
 /*}*/
 
 
-         /* carrousel */
+/* carrousel */
 
-.carousel .carousel-item{
+.carousel .carousel-item {
     position: relative;
 }
 
-.carousel .carousel-item img{
+.carousel .carousel-item img {
     height: 100vh;
     object-fit: cover;
     width: 100%;
 }
-.carousel .carousel-item .carousel-caption{
+
+.carousel .carousel-item .carousel-caption {
     position: absolute;
-    top: 50%; left: 25%;
+    top: 50%;
+    left: 25%;
     transform: translateY(50%);
 }
-.carousel .carousel-item .carousel-caption h3{
+
+.carousel .carousel-item .carousel-caption h3 {
     color: #fff;
     text-shadow: 0 5px 5px #000;
     font-size: 60px;
     text-transform: uppercase;
 }
+
 .carousel .carousel-item .carousel-caption {
     color: rgb(15, 15, 15);
     font-size: 15px;
@@ -82,12 +96,13 @@ li{
     width: 880px;
     text-transform: uppercase;
 }
+
 .carousel-caption {
     background-color: transparent;
 }
 
 .btn {
-    width: 100px;
+    width: 170px;
     height: 60px;
     background-color: black;
     color: #fff;
@@ -97,16 +112,18 @@ li{
     border: none;
     outline: none;
 }
-.btn:hover{
+
+.btn:hover {
     letter-spacing: 3px;
     opacity: 1px;
 }
-img{
-   width: 100%;
-}
-    
 
-        /* <!-- about us -->
+img {
+    width: 100%;
+}
+
+
+/* <!-- about us -->
 
         <!-- end of about us  -->
 
@@ -118,7 +135,8 @@ img{
 
         <!-- end of contact us --> */
 
-        /* <!-- footer -->
+
+/* <!-- footer -->
 
         <!-- end of footer --> */
 
