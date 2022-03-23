@@ -1,217 +1,204 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "gabriela";
-    background-color: #F3DCDC;
-}
-
-h3 {
-    background-color: transparent;
-}
-
-body {
-    font-family: sans-serif, 'Segoe UI', "gabriella";
-}
-
-h3 {
-    background-color: transparent;
-}
-
-.navbar ul li {
-    display: inline-block;
-    list-style: none;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding: 10px 16px;
-}
-
-.navbar ul li a:hover {
-    background-color: gray;
-    color: white;
-}
-
-.logo {
-    font-size: 30px;
-    font-family: "gabriella";
-    font-weight: bolder;
-    color: black;
-    text-decoration: none;
-}
-
-li {
-    list-style: none;
-}
-
-
-/*.fa-solid {*/
-
-
-/*    font-size: 100px;*/
-
-
-/*    color: black;*/
-
-
-/*}*/
-
-
-/* carrousel */
-
-.carousel .carousel-item {
-    position: relative;
-}
-
-.carousel .carousel-item img {
-    height: 100vh;
-    object-fit: cover;
-    width: 100%;
-}
-
-.carousel .carousel-item .carousel-caption {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translateY(50%);
-}
-
-.carousel .carousel-item .carousel-caption h3 {
-    color: #fff;
-    text-shadow: 0 5px 5px #000;
-    font-size: 60px;
-    text-transform: uppercase;
-}
-
-.carousel .carousel-item .carousel-caption {
-    color: rgb(15, 15, 15);
-    font-size: 15px;
-    padding: 32px 0;
-    width: 880px;
-    text-transform: uppercase;
-}
-
-.carousel-caption {
-    background-color: transparent;
-}
-
-.btn {
-    width: 170px;
-    height: 60px;
-    background-color: black;
-    color: #fff;
-    font-size: 32px;
-    cursor: pointer;
-    border-radius: 50px;
-    border: none;
-    outline: none;
-}
-
-.btn:hover {
-    letter-spacing: 3px;
-    opacity: 1px;
-}
-
-img {
-    width: 100%;
-}
-
-
-/* <!-- about us -->
-
-        <!-- end of about us  -->
-
-        <!-- our store -->
-
-        <!-- end of our store -->
-
-        <!-- contact us  -->
-
-        <!-- end of contact us --> */
-
-
-        .row{
-            display: flex;
-            flex-wrap: wrap;
-        }
-        ul{
-            list-style: none;
-        }
-        .footer{
-            padding: 70px 0;
-        }
-        .footer-col{
-           width: 25%;
-           padding: 0 15px;
-        }
-        .footer-col h4{
-            font-size: 18px;
-            text-transform: capitalize;
-            margin-bottom: 35px;
-            font-weight: 500;
-            color: yellowgreen;
-            position: relative;
-        }
-        .footer-col h4::before{
-            content: '';
-            position: absolute;
-            left:0;
-            bottom: -10px;
-            /* background-color: #e91e63; */
-            height: 2px;
-            box-sizing: border-box;
-            width: 50px;
-        }
-        .footer-col ul li:not(:last-child){
-            margin-bottom: 10px;
-        }
-        .footer-col ul li a{
-            font-size: 16px;
-            text-transform: capitalize;
-            text-decoration: none;
-            color: black;
-            font-weight: 300;
-            display: block;
-            transition: all 0.3s ease;
-        }
-        .footer-col ul li a:hover{
-            color: black;
-            padding-left: 8px;
-        }
-        .footer-col .social-links a{
-            display: inline-block;
-            height: 40px;
-            width: 40px;
-            background-color: rgba(255,255,255,0.2);
-            margin:0 10px 10px 0;
-            text-align: center;
-            line-height: 40px;
-            border-radius: 50%;
-            color: black;
-            transition: all 0.5s ease;
-        }
-        .footer-col .social-links a:hover{
-            color: #24262b;
-            background-color: #0e0d0d;
-        }
-        
-        /*responsive*/
-        @media(max-width: 767px){
-          .footer-col{
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "gabriela";
+        background-color: #F3DCDC;
+    }
+    
+    h3 {
+        background-color: transparent;
+    }
+    
+    body {
+        font-family: sans-serif, 'Segoe UI', "gabriella";
+    }
+    
+    h3 {
+        background-color: transparent;
+    }
+    
+    .navbar ul li {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 10px 16px;
+    }
+    
+    .navbar ul li a:hover {
+        background-color: gray;
+        color: white;
+    }
+    
+    .logo {
+        font-size: 30px;
+        font-family: "gabriella";
+        font-weight: bolder;
+        color: black;
+        text-decoration: none;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .carousel .carousel-item {
+        position: relative;
+    }
+    
+    .carousel .carousel-item img {
+        height: 100vh;
+        object-fit: cover;
+        width: 100%;
+    }
+    
+    .carousel .carousel-item .carousel-caption {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translateY(50%);
+    }
+    
+    .carousel .carousel-item .carousel-caption h3 {
+        color: #fff;
+        text-shadow: 0 5px 5px #000;
+        font-size: 60px;
+        text-transform: uppercase;
+    }
+    
+    .carousel .carousel-item .carousel-caption {
+        color: rgb(15, 15, 15);
+        font-size: 15px;
+        padding: 32px 0;
+        width: 880px;
+        text-transform: uppercase;
+    }
+    
+    .carousel-caption {
+        background-color: transparent;
+    }
+    
+    .btn {
+        width: 170px;
+        height: 60px;
+        background-color: black;
+        color: #fff;
+        font-size: 32px;
+        cursor: pointer;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+    }
+    
+    .btn:hover {
+        letter-spacing: 3px;
+        opacity: 1px;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .fashion img:hover {
+        transform: scale(0.8);
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .footer {
+        padding: 70px 0;
+    }
+    
+    .footer-col {
+        width: 25%;
+        padding: 0 15px;
+    }
+    
+    .footer-col h4 {
+        font-size: 18px;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        color: yellowgreen;
+        position: relative;
+    }
+    
+    .footer-col h4::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        /* background-color: #e91e63; */
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+    
+    .footer-col ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    
+    .footer-col ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: black;
+        font-weight: 300;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    
+    .footer-col ul li a:hover {
+        color: black;
+        padding-left: 8px;
+    }
+    
+    .footer-col .social-links a {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: black;
+        transition: all 0.5s ease;
+    }
+    
+    .footer-col .social-links a:hover {
+        color: #24262b;
+        background-color: #0e0d0d;
+    }
+    /*responsive*/
+    
+    @media(max-width: 767px) {
+        .footer-col {
             width: 50%;
             margin-bottom: 30px;
         }
-        }
-        @media(max-width: 574px){
-          .footer-col{
+    }
+    
+    @media(max-width: 574px) {
+        .footer-col {
             width: 100%;
         }
+<<<<<<< HEAD
 
 
 /* styles for our store */
@@ -222,3 +209,9 @@ img {
         }
 
 /* end of styles for our store */
+=======
+        img {
+            margin-top: 10px;
+        }
+    }
+>>>>>>> f3b5f709235b83c9d6c157bd110f9299a273c913
