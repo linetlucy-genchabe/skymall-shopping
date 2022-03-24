@@ -28,3 +28,26 @@ function del(item){
 }
 
 
+
+    let person = $("input#name").val();
+    let phone = $("input#phone").val();
+    let location = $("input#location").val();
+
+    if ($("input#name").val() && $("input#phone").val() && $("input#location").val() != "") {
+
+        $("#finallmessage").append(person + ", Your order will be delivered at " + location + ", in 3hrs");
+        alert("your order will be delivered in 3hours");
+
+
+    } else {
+        alert("Please fill in the details for delivery!");
+
+        $("button#final-order").show();
+    }
+
+    function newFunction() {
+        $("#form").reset();
+        alert("your order will be delivered in 3hours");
+    }
+
+
