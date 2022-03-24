@@ -1,9 +1,11 @@
-body{margin: 0}
+body{
+  margin: 0
+}
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  background: teal;
+  background: #F3DCDC;
   padding: 15px;
 }
 .container img {
