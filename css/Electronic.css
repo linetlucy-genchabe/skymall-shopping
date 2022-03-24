@@ -1,4 +1,4 @@
-body {
+ body {
   margin: 0;
 }
 .container {
@@ -75,3 +75,16 @@ h4 {
 #submit:hover {
   background-color: pink;
 }
+.cart{
+  width: 350px;
+  margin-left: 90px;
+  float: right;
+  text-align: center;
+  border: 1px solid black;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.cartImg > img{
+  width: 300px;
+  margin-left: 25px;
+} 
