@@ -15,12 +15,12 @@ img {
     transform: scale(0.8);
 }
 
-#submit {
+.submit {
     height: 30px;
     width: 100px;
     margin-left: 25%;
 }
 
-#submit:hover {
+.submit:hover {
     background-color: pink;
 }
