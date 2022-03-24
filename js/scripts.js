@@ -25,7 +25,6 @@ function addToCart(item) {
     selectedItem.append(delBtn);
     cartItems.append(selectedItem);
 }
-<<<<<<< HEAD
 
 function del(item) {
     document.getElementById(item).remove();
@@ -107,5 +106,3 @@ $("button#form").click(function(event) {
     }
 
 });
-=======
->>>>>>> 057bfc7b35951b1bec20414008c841eed1e234be
