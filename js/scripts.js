@@ -46,11 +46,7 @@ if ($("input#name").val() && $("input#phone").val() && $("input#location").val()
     $("button#final-order").show();
 }
 
-<<<<<<< HEAD
 function newFunction() {
     $("#form").reset();
     alert("your order will be delivered in 3hours");
 }
-=======
-});
->>>>>>> master
