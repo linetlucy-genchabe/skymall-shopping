@@ -32,85 +32,229 @@
 /*    text-decoration: none;*/
 /*}*/
 
-#header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 9997;
-    transition: all 0.5s;
-    padding: 15px;
-    overflow-y: auto;
-}
-@media (max-width: 992px) {
-    #header {
-        width: 300px;
-        background: #fff;
-        border-right: 1px solid #e6e9ec;
-        left: -300px;
-    }
+/*#header {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    z-index: 9997;*/
+/*    transition: all 0.5s;*/
+/*    padding: 15px;*/
+/*    overflow-y: auto;*/
+/*}*/
+/*@media (max-width: 992px) {*/
+/*    #header {*/
+/*        width: 300px;*/
+/*        background: #fff;*/
+/*        border-right: 1px solid #e6e9ec;*/
+/*        left: -300px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 992px) {*/
+/*    #main {*/
+/*        margin-left: 100px;*/
+/*    }*/
+/*}*/
+/*.nav-menu {*/
+/*    padding: 0;*/
+/*    display: block;*/
+/*}*/
+/*.nav-menu * {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    list-style: none;*/
+/*}*/
+/*.nav-menu > ul > li {*/
+/*    position: relative;*/
+/*    white-space: nowrap;*/
+/*}*/
+/*.nav-menu a, .nav-menu a:focus {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    color: white;*/
+/*    padding: 10px 18px;*/
+/*    margin-bottom: 8px;*/
+/*    transition: 0.3s;*/
+/*    font-size: 25px;*/
+/*    border-radius: 50px;*/
+/*    background: black;*/
+/*    height: 56px;*/
+/*    width: 100%;*/
+/*    overflow: hidden;*/
+/*    transition: 0.3s;*/
+/*}*/
+/*.nav-menu a i, .nav-menu a:focus i {*/
+/*    font-size: 20px;*/
+/*}*/
+/*.nav-menu a span, .nav-menu a:focus span {*/
+/*    padding: 0 5px 0 7px;*/
+/*    color: #45505b;*/
+/*}*/
+/*@media (min-width: 992px) {*/
+/*    .nav-menu a, .nav-menu a:focus {*/
+/*        width: 56px;*/
+/*    }*/
+/*    .nav-menu a span, .nav-menu a:focus span {*/
+/*        display: none;*/
+/*        color: #fff;*/
+/*    }*/
+/*}*/
+/*.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {*/
+/*    color: #fff;*/
+/*    background: black;*/
+/*}*/
+/*.nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {*/
+/*    color: #fff;*/
+/*}*/
+/*.nav-menu a:hover, .nav-menu li:hover > a {*/
+/*    width: 100%;*/
+/*    color: #fff;*/
+/*}*/
+/*.nav-menu a:hover span, .nav-menu li:hover > a span {*/
+/*    display: block;*/
+/*}*/
+
+
+img {
+    margin-top: 12px;
 }
 
-@media (min-width: 992px) {
-    #main {
-        margin-left: 100px;
-    }
+img:hover {
+    transform: scale(0.8);
 }
-.nav-menu {
-    padding: 0;
-    display: block;
+
+#submit {
+    height: 30px;
+    width: 100px;
+   margin-left: 25%;
 }
-.nav-menu * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+
+#submit:hover {
+    background-color: pink;
 }
-.nav-menu > ul > li {
-    position: relative;
-    white-space: nowrap;
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 20px;
 }
-.nav-menu a, .nav-menu a:focus {
+
+
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--green);
+    color: #fff;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--black);
+    color: #fff;
+}
+
+.heading{
+    text-align: center;
+    color: var(--black);
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+
+.heading span{
+    color: var(--green);
+    text-transform: uppercase;
+}
+
+.header-1{
+    background:#eee;
     display: flex;
     align-items: center;
-    color: white;
-    padding: 10px 18px;
-    margin-bottom: 8px;
-    transition: 0.3s;
-    font-size: 25px;
-    border-radius: 50px;
-    background: black;
-    height: 56px;
-    width: 100%;
-    overflow: hidden;
-    transition: 0.3s;
+    justify-content: space-between;
+    padding:2rem 9%;
 }
-.nav-menu a i, .nav-menu a:focus i {
-    font-size: 20px;
+
+.logo{
+    color:var(--black);
+    font-weight: bolder;
+    font-size: 3rem;
 }
-.nav-menu a span, .nav-menu a:focus span {
-    padding: 0 5px 0 7px;
-    color: #45505b;
+
+.logo i{
+    padding-right: .5rem;
+    color:var(--green);
 }
-@media (min-width: 992px) {
-    .nav-menu a, .nav-menu a:focus {
-        width: 56px;
-    }
-    .nav-menu a span, .nav-menu a:focus span {
-        display: none;
-        color: #fff;
-    }
+
+.header-1 .search-box-container{
+    background-color: transparent;
+    display: flex;
+    height:5rem;
 }
-.nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
-    color: #fff;
-    background: black;
+
+.header-1 .search-box-container #search-box{
+    height: 100%;
+    width:100%;
+    padding:1rem;
+    font-size: 2rem;
+    color:#333;
+    border:.1rem solid rgba(0,0,0,.3);
+    text-transform: none;
 }
-.nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
-    color: #fff;
+
+.header-1 .search-box-container label{
+    height: 100%;
+    width:8rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    color:#fff;
+    background:var(--green);
+    text-align: center;
+    cursor: pointer;
 }
-.nav-menu a:hover, .nav-menu li:hover > a {
-    width: 100%;
-    color: #fff;
+
+.header-1 .search-box-container label:hover{
+    background:var(--black);
 }
-.nav-menu a:hover span, .nav-menu li:hover > a span {
-    display: block;
+.header-2{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    box-shadow: 0.5rem;
+}
+
+.header-2.active{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 10000;
+}
+
+.header-2 .navbar a{
+    padding:.5rem 1.5rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+    color:var(--black);
+    text-decoration: none;
+}
+
+.header-2 .navbar a:hover{
+    background:var(--green);
+    color:#fff;
+}
+
+.header-2 .icons a{
+    font-size: 2.5rem;
+    color: var(--black);
+    padding-left: 1rem;
+    text-decoration: none;
+}
+
+.header-2 .icons a:hover{
+    color: var(--green);
 }
