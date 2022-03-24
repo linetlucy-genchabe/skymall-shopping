@@ -51,6 +51,17 @@
             <div class="title">cart</div>
             <hr />
             <div id="title"></div>
+
+            <div class="delivery" style="margin-top: 10px;">
+                <form action="" id="form">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                        <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                        <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                        <button class="btn btn-orange" id="final-order" onclick="newFunction()">Checkout</button>
+                    </div>
+                </form>
+            </div>
         </div>
 
         <div class="fashion">
@@ -58,84 +69,96 @@
             <div class="row">
                 <div class="col-md-3" id="item1">
                     <img src="assets/ourstore/dress.jpg" alt="dress picture" height="300px" width="300px">
-                    <h6>Dress : $50 </h6>
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
-                    <button onclick="addToCart (item1)"> Add to cart</button>
+
+                    <div class="title">Dress : $50 </div>
+
+                    <button onclick="addToCart (item1)" class="submit"> Add to cart</button>
 
                 </div>
 
                 <div class="col-md-3" id="item2">
                     <img src="assets/ourstore/shoes.jpg" alt="dress picture" height="300px" width="300px">
-                    <h6>Fila shoes : $65 </h6>
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
-                    <button onclick=" addToCart(item2)"> Add to cart</button>
+
+                    <div class="title"> Fila shoes : $65</div>
+
+                    <button onclick=" addToCart(item2)" class="submit"> Add to cart</button>
 
                 </div>
                 <div class="col-md-3" id="item3">
                     <img src="assets/ourstore/boots.jpg" alt="dress picture" height="300px" width="300px">
-                    <h6>Boots : $72</h6>
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
-                    <button onclick=" addToCart(item3)"> Add to cart</button>
+
+                    <div class="title"> Boots : $72</div>
+                    <button onclick=" addToCart(item3)" class="submit"> Add to cart</button>
 
                 </div>
                 <div class="col-md-3" id="item4">
                     <img src="assets/ourstore/jewellery1.jpg" alt="dress picture" height="300px" width="300px">
-                    <h6>Silver jewellery : $100 </h6>
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
-                    <button onclick="addToCart(item4)"> Add to cart</button>
+
+                    <div class="title"> Silver jewellery : $100</div>
+                    <button onclick="addToCart(item4)" class="submit"> Add to cart</button>
 
                 </div>
 
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3" id="item5">
                     <img src="assets/ourstore/kids3.jpg" alt="dress picture" height="300px" width="300px">
-                    <h6>Kids outfit : $45 </h6>
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+
+                    <div class="title"> kids outfit: $45</div>
+                    <button onclick=" addToCart(item5)" class="submit"> Add to cart</button>
+
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" id="item6">
                     <img src="assets/ourstore/wedges.jpg" alt="dress picture" height="300px" width="300px">
-                    <h6>Wedge heels : $60</h6>
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+
+                    <div class="title"> Wedge heels : $60</div>
+                    <button onclick=" addToCart(item6)" class="submit"> Add to cart</button>
+
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" id="item7">
                     <img src="assets/ourstore/necklace.jpeg" alt="dress picture" height="300px" width="300px">
-                    <h6> Gold Necklace : $70 </h6>
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+
+                    <div class="title"> Gold Necklace : $70</div>
+                    <button onclick=" addToCart(item7)" class="submit"> Add to cart</button>
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" id="item8">
                     <img src="assets/ourstore/kids.jpg" alt="dress picture" height="300px" width="300px">
-                    <h6>Kids outfit : $55 </h6>
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+
+                    <div class="title"> Kids outfit : $55 </div>
+                    <button onclick=" addToCart(item8)" class="submit"> Add to cart</button>
 
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3" id="item9">
                     <img src="assets/ourstore/kids2.jpg" alt="dress picture" height="300px" width="300px">
-                    <h6>kids outfit : $50 </h6>
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+
+                    <div class="title"> kids outfit : $50 </div>
+                    <button onclick=" addToCart(item9)" class="submit"> Add to cart</button>
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" id="item10">
                     <img src="assets/ourstore/cloth1.jpg" alt="dress picture" height="300px" width="300px">
-                    <h6> crop hoodie: $50 </h6>
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+
+                    <div class="title"> crop hoodie: $50 </div>
+                    <button onclick=" addToCart(item10)" class="submit"> Add to cart</button>
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" id="item11">
                     <img src="assets/ourstore/shoes2.jpg" alt="dress picture" height="300px" width="300px">
-                    <h6>platform sandals : $65 </h6>
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+
+                    <div class="title">platform sandals : $65</div>
+                    <button onclick=" addToCart(item11)" class="submit"> Add to cart</button>
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" id="item12">
                     <img src="assets/ourstore/earphones.jpg" alt="dress picture" height="300px" width="300px">
-                    <h6>Earphones: $ 40 </h6>
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+
+                    <div class="title"> Earphones: $ 40 </div>
+                    <button onclick=" addToCart(item12)" class="submit"> Add to cart</button>
 
                 </div>
             </div>
