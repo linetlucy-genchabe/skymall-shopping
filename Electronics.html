@@ -1,11 +1,12 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/Electronic.css">
@@ -29,7 +30,15 @@
                         <li> <a href="cart.html" class="fas fa-shopping-cart"></a></li>
 
                     </ul>
-                </nav>
+<!-- 
+                                   <form action="">
+                 <input type="search" placeholder="search here ..." id="search">
+                   <label for="search" class="fas fa-search"></label>-->
+
+               <!-- </form>   -->
+
+
+ </nav>
 
             </div>
         </header>
@@ -40,77 +49,89 @@
 
             <div class="row">
 
-                <div class="col-md-3">
+                <div class="col-md-3" id="item1">
                     <img src="assets/images/imr6.jpg">
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+                    <div class="title">MacBook</div>
+                    <button class="submit" onclick="addToCart (item1)">Add to cart</button>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3" id="item2">
                     <img src="/assets/images/sora-khan-3U2NAo-VHSE-unsplash.jpg">
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+                    <div class="title">Game pads</div>
+                    <button onclick="addToCart (item2)">Add to cart</button>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" id="item3">
                     <img src="/assets/images/mulyadi-DkPiCUW3Jdo-unsplash.jpg">
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+                    <div class="title">Camera</div>
+                    <button onclick="addToCart (item3)">Add to cart</button>
                 </div>
-                <div class="col-md-3">
+
+
+                <div class="col-md-3" id="item4">
                     <img src="/assets/images/ps5.jpg">
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+                    <div class="title">Sony Playstation</div>
+                    <button onclick="addToCart (item4)">Add to cart</button>
                 </div>
 
             </div>
 
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3" id="item5">
                     <img src="/assets/images/adrian-regeci-1Ad6gTbYAsM-unsplash.jpg">
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+                   <div class="title">SmartWatch</div>
+                    <button onclick="addToCart (item5)">Add to cart</button>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3" id="item6">
                     <img src="/assets/images/dmitry-spravko-tl56qAl9STg-unsplash.jpg">
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+                    <div class="title">Laptops</div>
+                    <button onclick="addToCart (item6)">Add to cart</button>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" id="item7">
                     <img src="/assets/images/iphone2.jpg">
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+                    <div class="title">Mobile Devices</div>
+                    <button onclick="addToCart (item7)">Add to cart</button>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" id="item8">
                     <img src="/assets/images/onur-binay-G8tRf8m7Bss-unsplash.jpg">
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+                    <div class="title">BassBoost</div>
+                    <button onclick="addToCart (item8)">Add to cart</button>
                 </div>
 
             </div>
 
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3" id="item9">
                     <img src="/assets/images/markus-spiske-ryOV0-qerUU-unsplash.jpg">
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+                    <div class="title">Beats by Dre</div>
+                    <button onclick="addToCart (item9)">Add to cart</button>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3" id="item10">
                     <img src="/assets/images/zhasulan-rymbekov-hyrXBZKJ1rY-unsplash.jpg">
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+                 <div class="title">Mobile Accessories</div>
+                    <button onclick="addToCart (item10)">Add to cart</button>
                 </div>
-                <div class="col-md-3">
-                    <img src="/assets/images/iphone2.jpg">
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+                <div class="col-md-3" id="item11">
+                    <img src="/assets/images/jakob-owens-rcQoTu1-5v0-unsplash.jpg">
+                   <div class="title">NextGen Gadgets</div>
+                    <button onclick="addToCart (item11)">Add to cart</button>
                 </div>
-                <div class="col-md-3">
-                    <img src="/assets/images/onur-binay-G8tRf8m7Bss-unsplash.jpg">
-                    <input type="submit" class="submit" name="submit" id="submit" value="Add to cart">
+                <div class="col-md-3" id="item12">
+                    <img src="/assets/images/levi-loot-SVygRXtSd1g-unsplash.jpg">
+                    <div class="title">Earpods</div>
+                    <button onclick="addToCart (item12)">Add to cart</button>
                 </div>
 
             </div>
-
-
-
-
-
-
-
-
+            <div class="cart" id="cart">
+                <div class="title">cart</div>
+                <hr />
+                <div id="title"></div>
+            </div>
 
         </div>
+
 
         <footer class="footer">
             <div class="row">
@@ -159,9 +180,13 @@
 
         </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <script src="js/scripts.js"></script>
 </body>
 
 </html>
+
+
+
