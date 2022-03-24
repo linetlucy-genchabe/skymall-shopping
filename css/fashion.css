@@ -4,7 +4,11 @@
 }
 
 .container {
-    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    background-color: #f3dcdc;
+    padding: 15px;
 }
 
 img {
@@ -23,4 +27,17 @@ img {
 
 .submit:hover {
     background-color: pink;
+}
+
+.cart {
+    width: 250px;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    overflow-y: scroll;
+    height: 1000px;
+}
+
+.cartImg>img {
+    width: 200px;
 }
