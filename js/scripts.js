@@ -1,13 +1,6 @@
-$("#submit").on("click", function(event) {
-    console.log("submit")
 
+$(".submit").click(function() {
 
-
-    if (submit == "submit") {
-        alert("item added to cart");
-        return
-
-
-    }
+    alert("item added to cart");
 
 });
