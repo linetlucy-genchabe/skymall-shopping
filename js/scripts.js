@@ -7,11 +7,12 @@ $(".submit").click(function() {
 
 var addItemId = 0;
 
-function addToCart(item) {
+var addItemId = 0;
+function addToCart (item) {
     addItemId += 1;
     var selectedItem = document.createElement('div');
     selectedItem.classList.add('cartImg');
-    selectedItem.setAttribute('id', addItemId);
+    selectedItem.setAttribute('id',addItemId);
     var img = document.createElement('img');
     img.setAttribute('src', item.children[0].currentSrc);
     var title = document.createElement('div')
@@ -25,7 +26,7 @@ function addToCart(item) {
     selectedItem.append(delBtn);
     cartItems.append(selectedItem);
 }
-<<<<<<< HEAD
+
 
 function del(item) {
     document.getElementById(item).remove();
@@ -107,5 +108,3 @@ $("button#form").click(function(event) {
     }
 
 });
-=======
->>>>>>> 057bfc7b35951b1bec20414008c841eed1e234be
