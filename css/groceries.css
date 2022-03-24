@@ -33,21 +33,21 @@ section{
     padding: 2rem 9%;
 }
 
-.btn{
-    display: inline-block;
-    margin-top: 1rem;
-    background: var(--green);
-    color: #fff;
-    padding: .8rem 3rem;
-    font-size: 1.7rem;
-    text-align: center;
-    cursor: pointer;
-}
+/*.btn{*/
+/*    display: inline-block;*/
+/*    margin-top: 1rem;*/
+/*    background: var(--green);*/
+/*    color: #fff;*/
+/*    padding: .8rem 3rem;*/
+/*    font-size: 1.7rem;*/
+/*    text-align: center;*/
+/*    cursor: pointer;*/
+/*}*/
 
-.btn:hover{
-    background: var(--black);
-    color: #fff;
-}
+/*.btn:hover{*/
+/*    background: var(--black);*/
+/*    color: #fff;*/
+/*}*/
 
 .heading{
     text-align: center;
@@ -370,6 +370,19 @@ section{
   .product .box-container .box .btn{
     display: block;
   }
+
+
+
+
+#submit {
+    height: 30px;
+    width: 100px;
+    margin-left: 25%;
+}
+
+#submit:hover {
+    background-color: pink;
+}
 
 
 
