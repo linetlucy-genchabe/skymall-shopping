@@ -3,6 +3,8 @@ $(".submit").click(function() {
     alert("item added to cart");
 
 });
+<<<<<<< HEAD
+=======
 var addItemId = 0;
 
 function addToCart(item) {
@@ -16,3 +18,4 @@ function addToCart(item) {
     selectedItem.append(img);
     cartItems.append(selectedItem);
 }
+>>>>>>> c40fe57a36ba657068416179256bf97727b1d31b

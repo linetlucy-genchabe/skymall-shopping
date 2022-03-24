@@ -66,12 +66,12 @@ h4 {
   text-align: center;
   text-transform: uppercase;
 }
-#submit {
+.submit {
   height: 30px;
   width: 100px;
   margin-left: 15%;
 }
 
-#submit:hover {
+.submit:hover {
   background-color: pink;
 }

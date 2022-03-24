@@ -4,6 +4,8 @@
     box-sizing: border-box;
     background-color: #F3DCDC;
 }
+<<<<<<< HEAD
+=======
 
 
 /*.navbar ul li {*/
@@ -317,6 +319,7 @@
 
 /*    display: block;*/
 
+>>>>>>> c40fe57a36ba657068416179256bf97727b1d31b
 
 /*}*/
 
@@ -328,13 +331,13 @@ img:hover {
     transform: scale(0.8);
 }
 
-#submit {
+.submit {
     height: 30px;
     width: 100px;
     margin-left: 25%;
 }
 
-#submit:hover {
+.submit:hover {
     background-color: pink;
 }
 
