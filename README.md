@@ -16,6 +16,8 @@ This is an online shopping application.
 + [Authors Info](#Authors-Info)
 + [Known Bugs](#Known-Bugs)
 
+## live link
+https://623cf9acbb8e91088f206186--charming-rabanadas-bc63f5.netlify.app/ 
 ## Description
 <p>This  website shows a joint collaboration. The contributors look to solve, the Lack of authenticity in the online shops whereby users don't feel safe doing online shopping.The Unclear information about the products
 in the online shops, Damage of products during transit and Sale of fake or counterfeit/poor quality product.
